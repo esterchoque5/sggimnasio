@@ -1,0 +1,185 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400italic);
+/* Propiedades globales =============================================== */
+body{ background: #CAFF95FF; 
+	border:0; 
+	font: 12px 'Roboto', Arial, Helvetica, sans-serif; 
+	color:#020202FF ; 
+	line-height:18px; 
+	min-width:320px;
+}
+#main{margin: 0 auto; 
+	position: relative; 
+	overflow: hidden; 
+	width: 100%; 
+	background: #E2E2E2FF;
+}
+
+/* ============================= header ====================== */
+header{
+	display: block;
+	height: 60px;
+	color:black;
+	margin: 0 auto; 
+	padding: 30px;
+	display: inline-block;}
+
+.logo_wrapper{
+	font-size: 70px;
+	font-family: 'Source Sans Pro', sans-serif;}
+
+/* ============================= nav - tabs====================== */
+ul.tabs{
+	margin: 0;
+	padding: 1px;
+	float: center;
+	list-style: none;
+	height: 40px;
+	border-bottom: 8px solid #AAE915FF;
+	border-left: 1px solid #999;
+	width: 100%;
+}
+ul.tabs li{
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 42px;
+	border: 1px solid #999; 
+	border-left: none;
+	margin-bottom: -1px;
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+	width: 19.9%;
+}
+ul.tabs li a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 1.5em;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	outline: none;
+}
+ul.tabs li a:hover{
+	background: #AAE915FF;
+	color: #fff;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover{
+	background: #7F30CEFF;
+	border-bottom: 1px solid #CB3833FF;
+}
+.tab_container{
+	border: 1px solid #999;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+	background: #fff;
+}
+.tab_content{
+	padding: 20px;
+	font-size: 1.2em;
+}
+/* ============================= slider container ====================== */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* ============================= footer====================== */
+footer p{
+	background: #000;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
